@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Proyectos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body id="bodyProyecto">
+    <!---------------------------------- HEADER ---------------------------------->
+    <header>
+        <!---------------------------------- NAVBAR ---------------------------------->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-main bg-black">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand ">
+                    <img src="/assets/images/logo-nav.png" alt="Logo">
+                </a>
+                <!-- BOTON DROP -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                    aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- ITEMS -->
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <div class="nav ms-auto text-light">
+                        <a href="/index.html" id="aInicio" class="nav-link">Inicio</a>
+                        <a href="/pages/clientes.html" class="nav-link">Clientes</a>
+                        <a href="/pages/contacto.html" class="nav-link">Contacto</a>
+                        <a href="/pages/proyectos.html" class="nav-link">Proyectos</a>
+                        <a href="/pages/sobremi.html" class="nav-link">Sobre Mi</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="container" id="mainProyecto">
+        <section class="row justify-content-around text-center" id="sectProyectos">
+            <h2 class="col-12 display-4 text-capitalize mb-3">
+                Mis Proyectos
+            </h2>
+            <!---------------------------------- CAROUSEL ---------------------------------->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div id="carouInd" class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/images/banner1.jpg" class="d-block w-100" alt="...">
+                    <div id="captionCarUno" class="carousel-caption d-none d-md-block ">
+                        <h5 class="text-info-emphasis">Primer Proyecto</h5>
+                        <p class="text-info">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/images/banner2.jpg" class="d-block w-100" alt="...">
+                    <div id="captionCarDos" class="carousel-caption d-none d-md-block">
+                        <!-- Titulo  -->
+                        <h5 class="text-danger">Segundo Proyecto</h5>
+                        <!-- Descripcion  -->
+                        <p class="text-danger">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/images/banner3.jpg" class="d-block w-100" alt="...">
+                    <div id="captionCarTres" class="carousel-caption d-none d-md-block">
+                        <!-- Titulo  -->
+                        <h5 class="text-warning">Tercer Proyecto</h5>
+                        <!-- Descripcion  -->
+                        <p class="text-warning-emphasis">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+            <!---------------------------------- Tarjetas  ---------------------------------->
+            <article class="col-10 col-md-10 col-lg-3 rounded bg-light p-3 mb-3 mt-3 fw-light">
+                <!-- Icono -->
+                <img src="../assets/icons/engranaje.png" alt="Android icono"
+                    class="d-inline-block rounded-circle mb-3 icon-proyecto bg-info">
+                <!-- Titulo tarjeta -->
+                <h3 class="text-capitalize">
+                    Proyecto 1
+                </h3>
+                <!-- Descripcion -->
+                <p class="text-dark text-deco">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <!-- Boton  -->
+                <a href="#" class="btn btn-outline-info">Acceder al Proyecto</a>
+            </article>
+            <article class="col-10 col-md-10 col-lg-3 rounded bg-light p-3 mb-3 mt-3  fw-light">
+                <!-- Icono -->
+                <img src="../assets/icons/engranaje.png" alt="Android icono"
+                    class="d-inline-block rounded-circle mb-3 icon-proyecto bg-danger">
+                <!-- Titulo tarjeta -->
+                <h3 class="text-capitalize">
+                    Proyecto 2
+                </h3>
+                <!-- Descripcion -->
+                <p class="text-dark text-deco">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <!-- Boton  -->
+                <a href="#" class="btn btn-outline-danger">Acceder al Proyecto</a>
+            </article>
+            <article class="col-10 col-md-10 col-lg-3 rounded bg-light p-3 mb-3 mt-3 fw-light">
+                <!-- Icono -->
+                <img src="../assets/icons/engranaje.png" alt="Android icono"
+                    class="d-inline-block rounded-circle mb-3 icon-proyecto bg-warning">
+                <!-- Titulo tarjeta -->
+                <h3 class="text-capitalize">
+                    Proyecto 3
+                </h3>
+                <!-- Descripcion -->
+                <p class="text-dark text-deco">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <!-- Boton  -->
+                <a href="#" class="btn btn-outline-warning">Acceder al Proyecto</a>
+            </article>
+        </section>
+    </main>
+    <footer class="container bg-purple text-center p-4 text-light ">
+        <p>Adrian Ruiz. Todos los derechos reservados.</p>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

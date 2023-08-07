@@ -1,0 +1,268 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+    height: 200vh;
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+    
+}
+
+p{
+    color: white;
+}
+.container  .row{
+    margin-bottom: 1rem;
+}
+/* NAV */
+header{
+    height: 15vh;
+    border:10px solid white;
+    
+    
+}
+.navbar-brand  img {
+    width: 55px;
+
+}
+
+
+#mainNav{
+    font-size: 1.2rem;
+    
+    
+}
+
+#mainNav a {
+    color: rgb(253, 253, 253);
+    border-radius: 5px;
+    margin: 5px;
+}
+#mainNav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    
+}
+/* MAIN */
+main{
+    height: 270vh;
+    border:10px solid blue;
+    
+}
+#sectSaludos{
+    height: 90vh;
+}
+#sectTec{
+    height: 40vh;
+}
+#sectTarjet{
+    height: 90vh;
+}
+
+.icons-social-networks a {
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s filter ;
+}
+.icons-social-networks a:hover{
+    filter: opacity(0.5);
+}
+.bg-facebook{
+    background-color: blue;
+}
+.bg-twitter{
+    background-color: skyblue;
+
+}
+.bg-github{
+    background-color: gray;
+  
+}
+/* SERVICIOS */
+.icon-service{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+
+}
+.sectServ1{
+    margin-top: 3rem;
+}
+#iconAndroid{
+    background-color: greenyellow;
+}
+/* ESTILOS contacto.html */
+#bodyContacto{
+    height: 100vh;
+}
+#mainContacto{
+    height: 90vh;
+}
+#navContacto a{
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+}
+#navContacto a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+footer{
+    margin-top: auto;
+    height: 10%;
+    border:10px solid red;
+
+}
+
+
+
+/* ESTILOS proyectos.html */
+.icon-proyecto{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+#mainProyecto{
+    height: 120vh;
+}
+#bodyProyecto{
+    height: 130vh;
+}
+
+/* QUERIES PROYECTO*/
+
+@media (min-width:320px) and (max-width:767px){
+    #bodyProyecto{
+        height: 220vh;  
+      }
+      header{
+        height: 10vh;
+      }
+      #mainProyecto{
+          height: 200vh;
+      }
+      footer{
+          height: 15vh;
+      }
+}
+@media (min-width:320px) and (max-width:767px){
+#carouselExampleCaptions{
+    visibility: hidden;
+    
+}
+#carouText1{
+    visibility: hidden;
+}
+
+}
+@media(min-width:768px) and (max-width:991px){
+    #bodyProyecto{
+        height: 250vh;  
+      }
+      header{
+        height: 10vh;
+      }
+      #mainProyecto{
+          height: 230vh;
+      }
+      footer{
+          height: 15vh;
+      }
+    #carouInd{
+        display: none;
+    }
+    #captionCarUno{
+        visibility: hidden;
+    }
+
+    #captionCarDos{
+        visibility: hidden;
+    }
+    #captionCarTres{
+        visibility: hidden;
+    }
+}
+@media (min-width:438px) and (max-width:767px){
+    #bodyProyecto{
+        height: 220vh;  
+      }
+    #mainProyecto{
+        height: 210vh;
+    }
+}
+/* ESTILOS CLIENTES.html */
+#bodyClientes{
+    height: 190vh;
+}
+#mainClientes{
+    height: 150vh;
+}
+.cajaParafo1 {
+    display: inline-block;
+    width: 50%;
+   
+    padding: 2rem;
+    vertical-align: middle;
+}
+.cajaParafo1 h2{
+    font-size: 4rem;
+ }
+.cajaParafo1 p{
+   font-size: 1.5rem;
+}
+.cajaImg1 {
+    display: inline;
+    margin: 2rem;
+    vertical-align: middle;
+
+}
+.cajaImg1 img {
+  
+    margin: 2rem;
+
+}
+.cajaParafo2 {
+    display: inline-block;
+    width: 50%;
+    padding: 2rem;
+    vertical-align: middle;
+}
+.cajaParafo2 h2{
+    font-size: 4rem;
+ }
+.cajaParafo2 p{
+   font-size: 1.5rem;
+}
+.cajaImg2 {
+    display: inline;
+    margin: 2rem;
+    vertical-align: middle;
+
+}
+.cajaImg2 img {
+  
+    margin: 2rem;
+
+}
+
+/* ESTILOS SOBRE MI */
+#bodySobre{
+    height: 100vh;
+}
+#mainSobre{
+    height: 100vh;
+}
